@@ -1,0 +1,49 @@
+● cc_num:
+     Número de la tarjeta de crédito
+● merchant:
+     Nombre del comercio
+● category:
+    Categoría de comercio
+● amt:
+    Cantidad de dinero gastado en transacción
+● lat:
+    Latitud de ubicación del usuario
+● long:
+    Longitud de ubicación del usuario
+● city_pop:
+    Población de la ciudad del usuario
+● merch_lat:
+    Latitud de ubicación del comercio
+● merch_long:
+    Longitud de ubicación del comercio
+● is_fraud:
+    Variable objetivo, está definida como booleano, es true si la transacción es
+fraudulenta y es false si la transacción es legítima
+● amt_month:
+    Cantidad de dinero gastado en transacciones mensualmente
+● amt_year:
+    Cantidad de dinero gastado en transacciones anualmente
+● amt_month_shopping_net_spend:
+    Cantidad total de dinero gastado en transacciones
+● first_time_at_merchant:
+    Booleano, es true si es la primera transacción del usuario con ese comerciante,
+    es false si ya ha tenido transacciones en el pasado.
+● dist_between_client_and_merch:
+    Distancia entre la ubicación del cliente y el comerciante, calculado con las
+coordenadas de longitud y latitud.
+● trans_month:
+    Mes de la transacción
+● trans_day:
+    Dia de la transacción
+● hour:
+    Hora de la transacción
+● year:
+    Año de la transacción
+● times_shopped_at_merchant:
+    Cantidad total de transacciones entre el usuario y comerciante
+● times_shopped_at_merchant_year:
+    Cantidad de transacciones entre el usuario y comerciante por año
+● times_shopped_at_merchant_month:
+    Cantidad de transacciones entre el usuario y comerciante por mes
+● times_shopped_at_merchant_day:
+    Cantidad de transacciones entre el usuario y comerciante por dia
