@@ -1,4 +1,3 @@
 .DS_Store
 .vscode/
-dataset_feature_engineering.csv
-dataset_cleaned.csv
+data
